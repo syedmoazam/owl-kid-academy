@@ -1,0 +1,133 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tb-header-top{
+    color: #ffffff;
+    background-color: #333;
+    height: 44px;
+    padding-top: 2px;
+    background: url(images/header-gradient-background.png) repeat-x;
+}
+
+#header{
+    background-color: #333;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+a.nav-anchor{
+    color: #cccccc;
+    cursor: pointer;
+    border-left: 1px solid #717171;
+}
+
+a.nav-anchor:hover{
+    color: #cccccc;
+}
+
+#navbar li a{
+    font-family: 'Dosis', sans-serif !important;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    
+    transition: 0.5s;
+}
+
+#navbar li a:hover{
+    color: #20aceb !important;
+    border-bottom: 1px solid #20aceb;
+}
+
+#video-lesson h1{
+    font-family: 'Dosis', sans-serif !important;
+    font-size: 46px;
+    font-weight: bold;
+    color: #000;
+}
+
+.card{
+    transition: 0.6s;
+}
+
+#video-lesson .card:hover{
+    border-color: #1FACEB;
+}
+
+.card p{
+    color: #676767;
+}
+
+#comprehensive-curriculum{
+    background-color: #d0ebf2;
+}
+
+.dosis-heading{
+    font-family: 'Dosis', sans-serif !important;
+    font-size: 46px;
+    font-weight: bold;
+    color: #000;
+}
+
+#learn{
+    background-image: url(images/learn-with-owl-bg.png);
+}
+
+#learn2 .learn-2{
+    background: #cecece
+}
+
+
+#native-row1 img{
+    border-radius: 156px;
+}
+
+#native-row1{
+    transform: translateY(-100px);
+}
+
+.event-remain{
+    color: white !important;
+    background-color: rgb(255,202,0);
+    border-radius: 50%;
+}
+
+#footer1{
+    background-image: url(images/bg-footer.jpg);
+}
+
+#facebook:hover{
+    background-color: rgb(0, 119, 255) !important;
+}
+
+#instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+}
+
+#header1{
+    background-color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666767;
+}
+
+#header1 ul{
+    list-style-type: none;
+}
+
+#header1 li{
+    float: left;
+}
+
+.footer-li li{
+    transition: 0.5s;
+}
+
+.footer-li li:hover
+{
+    color: #1FACEB !important;
+    cursor: pointer;
+}
